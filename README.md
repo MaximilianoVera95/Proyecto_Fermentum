@@ -29,4 +29,9 @@ Para visualizar tanto el rango de la temperatura, la curva temperatura/tiempo y 
 
 Tanto el server como el client están conectados a una misma red LAN. Lo cual nos permite, mediante el celular, poder entrar al server y poder setear los valores del rango tanto desde la pc como de un teléfono celular. Lo mismo sucede como el monitoreo, esto se demuestra en las imágenes de la carpeta "Imagenes".
 
+## Arquitectura funcional
+
+![Diagramas de flujo](https://user-images.githubusercontent.com/114314558/192158902-fede1783-ab17-4218-978e-0a08b2c375c9.png)
+
+
 Nota: Para entender mejor el código, debe leer los comentarios.
