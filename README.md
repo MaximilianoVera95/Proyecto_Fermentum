@@ -19,11 +19,11 @@ Los archivos php de la carpeta "php_post" son los encargados de recibir, almacen
 
 Las carpetas de "Alarmas" contienen los archivos para poder mandar el aviso por email y por telegram. Se debe modificar la dirección de correo que enviará el mensaje y los que recibirán los mensajes. En cuanto a telegram, se creo un bot, el cual tiene su token al igual que el grupo de telegram que se creo con la finalidad de que los integrantes de dicho grupo reciban los mensajes de alerta. En la carpeta de "imagenes" se puede ver el estilo de mensaje de alerta que recibirá.
 
-*Client
+## Client
 
 "ESP8266.ino": envía los valores de la temperatura de cada tanque. El tiempo entre muestras se puede modificar en este archivo. Se utiliza el protocolo TCP para la comunicación server/client. El puerto por defecto del xampp es el 80, como estaba ocupado este puerto, se cambió al 81. Este proceso se realiza configurando en el panel principal de configuraciones del xampp. Los sensores que se emplearon son digitales, la ventaja de este típo de sensores es que por un único pin se pueden conectar varios sensores. Esto es posible, solo si, se conoce la dirección de cada sensor. Por lo que en la carpeta "client" hay un programa donde se puede facilmente sacar esta información. Otra ventaja, es que se puede verificar facilmente si un sensor está dañado o bien desconectado. Si el sensor mide -127 es porque esta roto o bien se desconecto el pin o bien la dirección indicada no es la correcta.
 
-*Monitoreo
+## Monitoreo
 
 Para visualizar tanto el rango de la temperatura, la curva temperatura/tiempo y el estado de la alarma, se instaló el Grafana, el cual es un software libre que nos permite vincular las diferentes columnas de las bases de datos con gráficos. En este caso, nuestra base de datos se llama "cervecería" y está en la carpeta de "Base de datos". Al igual que el archivo .json del grafana que esta en la carpeta "Grafana".
 
