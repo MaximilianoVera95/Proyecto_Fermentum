@@ -5,7 +5,7 @@ Se instaló el paquete xampp-linux-x64-8.1.6-0-installer en la computadora que f
 
 Del Server se debe copiar la carpeta "php_post" en la carpeta "htdocs" del xampp ya instalado en la máquina. Tambien se debe cargar el archivo .ino de la carpeta client al ESP8266, modificando la red WiFi, la ip del servidor y el puerto que se utilizará.
 
-*Server
+##Server
 
 Los archivos php de la carpeta "php_post" son los encargados de recibir, almacenar y analizar cada muestra entregada por la placa, a continuación se procede a explicar lo que realiza cada programa:
 
