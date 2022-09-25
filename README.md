@@ -34,4 +34,3 @@ Tanto el server como el client están conectados a una misma red LAN. Lo cual no
 ![Diagramas de flujo](https://user-images.githubusercontent.com/114314558/192158902-fede1783-ab17-4218-978e-0a08b2c375c9.png)
 
 
-Nota: Para entender mejor el código, debe leer los comentarios.
