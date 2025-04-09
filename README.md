@@ -13,7 +13,7 @@ Los archivos php de la carpeta "php_post" son los encargados de recibir, almacen
 
 "entrada_datos.php": recibe los datos enviados del esp8266 y los almacena en una base de datos. Evalúa cada muestra y dependiendo del rango de temperatura seteado por el usuario activa o no la señal de alerta (mensaes de mail y telegram). Una vez activado la alerta se debe habilitar nuevamente por medio del programa rango.php.
 
-"rango.php": es el programa encargado de setear los rangos máximos y mínimos de cada Tanque de manera individual. Asu vez, se pude desactivar o activar el sistema de alerta de cada Tanque.
+"rango.php": es el programa encargado de setear los rangos máximos y mínimos de cada Tanque de manera individual. A su vez, se pude desactivar o activar el sistema de alerta de cada Tanque.
 
 "rangoBD.php": actualiza el estado de la alerma y los valores de los rangos máximos mínimos ingresados en la base de datos por medio del programa rango.php.
 
