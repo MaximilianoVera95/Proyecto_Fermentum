@@ -15,7 +15,7 @@ Los archivos php de la carpeta "php_post" son los encargados de recibir, almacen
 
 "rango.php": es el programa encargado de setear los rangos máximos y mínimos de cada Tanque de manera individual. A su vez, se pude desactivar o activar el sistema de alerta de cada Tanque.
 
-"rangoBD.php": actualiza el estado de la alerma y los valores de los rangos máximos mínimos ingresados en la base de datos por medio del programa rango.php.
+"rangoBD.php": actualiza el estado de la alarma y los valores de los rangos máximos mínimos ingresados en la base de datos por medio del programa rango.php.
 
 Las carpetas de "Alarmas" contienen los archivos para poder mandar el aviso por email y por telegram. Se debe modificar la dirección de correo que enviará el mensaje y los que recibirán los mensajes. En cuanto a telegram, se creo un bot, el cual tiene su token al igual que el grupo de telegram que se creo con la finalidad de que los integrantes de dicho grupo reciban los mensajes de alerta. En la carpeta de "imagenes" se puede ver el estilo de mensaje de alerta que recibirá.
 
